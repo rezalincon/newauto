@@ -5,6 +5,7 @@ html {
 	background-attachment: fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+	background-color: #000;
 }
 @media only screen and (min-width: 1240px) {
 	body:not(.header-simple) #Top_bar #menu {
