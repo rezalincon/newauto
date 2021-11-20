@@ -619,7 +619,7 @@ html {
 		margin: 11px 0;
 	}
 	.header-stack .menu_wrapper #menu {
-		left: 0;
+		left: 0; 
 		right: auto;
 	}
 	.rtl.header-stack #Top_bar #menu {
@@ -646,7 +646,7 @@ html {
 	border-top-color: #060c17;
 }
 #Footer {
-	background-color: #060c17;
+	background-color: #000;
 }
 body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_list ul li a, .list_item a, .list_item a:hover, .widget_recent_entries ul li a, .flat_box a, .flat_box a:hover, .story_box .desc, .content_slider.carouselul li a .title, .content_slider.flat.description ul li .desc, .content_slider.flat.description ul li a .desc {
 	color: #576173;
@@ -661,16 +661,16 @@ body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_li
 	border-color: #000;
 }
 a {
-	color: #31518C;
+	color: #000;
 }
 a:hover {
-	color: #15346D;
+	color: #000;
 }
 *::-moz-selection {
-	background-color: #31518C;
+	background-color: #000; 
 }
 *::selection {
-	background-color: #31518C;
+	background-color: #000;
 }
 .blockquote p.author span, .counter .desc_wrapper .title, .article_box .desc_wrapper p, .team .desc_wrapper p.subtitle, .pricing-box .plan-header p.subtitle, .pricing-box .plan-header .price sup.period, .chart_box p, .fancy_heading .inside, .fancy_heading_line .slogan, .post-meta, .post-meta a, .post-footer, .post-footer a span.label, .pager .pages a, .button-love a .label, .pager-single a, #comments .commentlist>li .comment-author .says, .fixed-nav .desc .date, .filters_buttons li.label, .Recent_posts ul li a .desc .date, .widget_recent_entries ul li .post-date, .tp_recent_tweets .twitter_time, .widget_price_filter .price_label, .shop-filters .woocommerce-result-count, .woocommerce ul.product_list_widget li .quantity, .widget_shopping_cart ul.product_list_widget li dl, .product_meta .posted_in, .woocommerce .shop_table .product-name .variation>dd, .shipping-calculator-button:after, .shop_slider .shop_slider_ul li .item_wrapper .price del, .testimonials_slider .testimonials_slider_ul li .author span, .testimonials_slider .testimonials_slider_ul li .author span a, .Latest_news ul li .desc_footer {
 	color: #a8a8a8;
@@ -694,18 +694,18 @@ h6, h6 a, h6 a:hover, a.content_link .title {
 	color: #000;
 }
 .dropcap, .highlight:not(.highlight_image) {
-	background-color: #e8ca00;
+	background-color: #ff0000;
 }
 a.button, a.tp-button {
-	background-color: #e8ca00;
+	background-color: #ff0000;
 	color: #000;
 }
 .button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
-	border-color: #e8ca00;
+	border-color: #ff0000;
 	color: #000;
 }
 .button-stroke a:hover.button, .button-stroke a:hover.tp-button {
-	background-color: #e8ca00 !important;
+	background-color: #ff0000 !important;
 	color: #fff;
 }
 a.button_theme, a.tp-button.button_theme, button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -747,8 +747,8 @@ a.mfn-link-6:before {
 	color: #737E86;
 }
 .hr_color, .hr_color hr, .hr_dots span {
-	color: #e8ca00;
-	background: #e8ca00;
+	color: #ff0000;
+	background: #ff0000;
 }
 .hr_zigzag i {
 	color: #e8ca00;
